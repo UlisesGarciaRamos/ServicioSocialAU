@@ -1,0 +1,22 @@
+.contenedorFooter {
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+  width: 100%;
+}
+
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  min-height: 100vh;
+}
+
+.footer {
+  padding: 10px;
+  background-color: rgb(34, 34, 34);
+  text-align: center;
+  color: white;
+  width: 100%;
+}
