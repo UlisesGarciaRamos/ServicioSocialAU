@@ -8,9 +8,9 @@
     <title>Inicio</title>
 
     <!-- Bootstrap -->
-    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="css/estilosFooter.css">
-	    <link rel="stylesheet" href="css/login.css">
+    <link href="../bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../css/estilosFooter.css">
+	    <link rel="stylesheet" href="../css/login.css">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -28,10 +28,10 @@
     <div class="container">
       <div class="row img-responsive">
         <div class="col-xs-4">
-          <img src="img/logo_umar.jpg" class="img-responsive">
+          <img src="../img/logo_umar.jpg" class="img-responsive">
         </div>
         <div class="col-xs-8">
-          <img src="img/logo_umar_2.jpg" class="img-responsive">
+          <img src="../img/logo_umar_2.jpg" class="img-responsive">
         </div>
       </div>
 
@@ -53,6 +53,19 @@
             <ul class="nav navbar-nav">
               <li><a href="#" data-toggle="modal" data-target="#login-modal">Login <span class="glyphicon glyphicon-user"></span></a></li>
               <li><a href="registro.php">Personal</a></li>
+			  
+			   <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Periodo<span 			class="caret"></span></a>
+                <ul class="dropdown-menu">
+                  <li><a href="admin_periodo_altas.php">Altas</a></li>
+                  <li><a href="admin_periodo_eliminar.php">Eliminar</a></li>
+                  <li><a href="admin_periodo_modificar.php">Modificar</a></li>
+                  <li role="separator" class="divider"></li>
+                  <li><a href="admin_periodo_ver.php">Ver Lista</a></li>
+                </ul>
+              </li>
+			  
+			  
             </ul>
           </div><!-- /.navbar-collapse -->
         </div><!-- /.container-fluid -->
@@ -128,28 +141,28 @@
             <!-- Wrapper for slides -->
             <div class="carousel-inner" role="listbox">
               <div class="item active">
-                <img src="img/1.jpg" alt="" class="imgCarrucel">
+                <img src="../img/1.jpg" alt="" class="imgCarrucel">
                 <div class="carousel-caption">
                   <h3>Universidad del Mar</h3>
                   <p>Campus Puerto Escondido</p>
                 </div>
               </div>
               <div class="item">
-                <img src="img/2.jpg" alt="" class="imgCarrucel">
+                <img src="../img/2.jpg" alt="" class="imgCarrucel">
                 <div class="carousel-caption">
                   <h3>Universidad del Mar</h3>
                   <p>Campus Puerto Escondido</p>
                 </div>
               </div>
               <div class="item">
-                <img src="img/3.JPG" alt="" class="imgCarrucel">
+                <img src="../img/3.JPG" alt="" class="imgCarrucel">
                 <div class="carousel-caption">
                   <h3>Universidad del Mar</h3>
                   <p>Campus Puerto Escondido</p>
                 </div>
               </div>
               <div class="item">
-                <img src="img/4.JPG" alt="" class="imgCarrucel">
+                <img src="../img/4.JPG" alt="" class="imgCarrucel">
                 <div class="carousel-caption">
                   <h3>Universidad del Mar</h3>
                   <p>Campus Puerto Escondido</p>
@@ -178,10 +191,10 @@
       </div>
     </div>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="js/jquery-3.1.1.min.js"></script>
-    <script src="js/login.js"></script>
-    <script src="js/footer.js"></script>
+    <script src="../js/jquery-3.1.1.min.js"></script>
+    <script src="../js/login.js"></script>
+    <script src="../js/footer.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="bootstrap/js/bootstrap.min.js"></script>
+    <script src="../bootstrap/js/bootstrap.min.js"></script>
   </body>
 </html>

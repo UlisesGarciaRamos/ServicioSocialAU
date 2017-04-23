@@ -3,7 +3,7 @@
     private $conexion;
 
     public function realizarConexion() {
-      $this->conexion = new mysqli("localhost","root","","serviciosocial");
+      $this->conexion = new mysqli("localhost","root","","bdserviciosocial");
       if ($this->conexion->connect_errno) {
         echo "<script>alert('No hay conexión con los datos, consulte con el administrador.')</script>";
       } else {

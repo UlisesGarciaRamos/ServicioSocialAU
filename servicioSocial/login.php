@@ -7,7 +7,7 @@
     <title>Bootstrap 101 Template</title>    
     <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">    
   </head>
-
+<!-- modificando codigo -->
   <body class="">
     <div class="container">
       <div class="row img-responsive">
